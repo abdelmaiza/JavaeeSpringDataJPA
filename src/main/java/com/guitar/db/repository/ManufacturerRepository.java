@@ -6,6 +6,7 @@ import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.guitar.db.model.Manufacturer;
@@ -15,12 +16,16 @@ public class ManufacturerRepository {
 	@PersistenceContext
 	private EntityManager entityManager;
 
+	@Autowired
+	private ManufacturerJpaRepository manufacturerJpaRepository;
+
 	/**
 	 * Create
 	 */
 	public Manufacturer create(Manufacturer man) {
-		entityManager.persist(man);
-		entityManager.flush();
+		//entityManager.persist(man);
+		//entityManager.flush();
+		manufacturerJpaRepository.saveAndFlush(man);
 		return man;
 	}
 
@@ -28,8 +33,9 @@ public class ManufacturerRepository {
 	 * Update
 	 */
 	public Manufacturer update(Manufacturer man) {
-		man = entityManager.merge(man);
-		entityManager.flush();
+		//man = entityManager.merge(man);
+		//entityManager.flush();
+		manufacturerJpaRepository.saveAndFlush(man);
 		return man;
 	}
 
@@ -37,15 +43,17 @@ public class ManufacturerRepository {
 	 * Delete
 	 */
 	public void delete(Manufacturer man) {
-		entityManager.remove(man);
-		entityManager.flush();
+		//entityManager.remove(man);
+		//entityManager.flush();
+		manufacturerJpaRepository.delete(man);
 	}
 
 	/**
 	 * Find
 	 */
 	public Manufacturer find(Long id) {
-		return entityManager.find(Manufacturer.class, id);
+		//return entityManager.find(Manufacturer.class, id);
+		return manufacturerJpaRepository.findOne(id);
 	}
 
 	/**
@@ -53,9 +61,10 @@ public class ManufacturerRepository {
 	 */
 	public List<Manufacturer> getManufacturersFoundedBeforeDate(Date date) {
 		@SuppressWarnings("unchecked")
-		List<Manufacturer> mans = entityManager
-				.createQuery("select m from Manufacturer m where m.foundedDate < :date")
-				.setParameter("date", date).getResultList();
+		//List<Manufacturer> mans = entityManager
+		//		.createQuery("select m from Manufacturer m where m.foundedDate < :date")
+		//		.setParameter("date", date).getResultList();
+		List<Manufacturer> mans = manufacturerJpaRepository.findByFoundedDateBefore(date);
 		return mans;
 	}
 
@@ -63,9 +72,10 @@ public class ManufacturerRepository {
 	 * Custom finder
 	 */
 	public Manufacturer getManufacturerByName(String name) {
-		Manufacturer man = (Manufacturer)entityManager
-				.createQuery("select m from Manufacturer m where m.name like :name")
-				.setParameter("name", name + "%").getSingleResult();
+		//Manufacturer man = (Manufacturer)entityManager
+		//		.createQuery("select m from Manufacturer m where m.name like :name")
+		//		.setParameter("name", name + "%").getSingleResult();
+		Manufacturer man = manufacturerJpaRepository.findByNameStartingWith(name);
 		return man;
 	}
 
