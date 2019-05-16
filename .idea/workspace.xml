@@ -2,24 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4aa314fd-b052-4796-bf2b-d0c69b296043" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/guitar/db/repository/LocationJpaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ManufacturerJpaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ModelJpaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ModelTypeJpaRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/JavaeeSpringDateJPA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaeeSpringDateJPA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_9_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_7_1_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/guitar/db/model/Manufacturer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guitar/db/model/Manufacturer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ManufacturerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ManufacturerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ModelRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ModelRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/app-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/app-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/h2/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/h2/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/h2/db.h2.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/h2/db.h2.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/guitar/db/LocationPersistenceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/guitar/db/LocationPersistenceTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/guitar/db/ManufacturerPersistenceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/guitar/db/ManufacturerPersistenceTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/guitar/db/ModelPersistenceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/guitar/db/ModelPersistenceTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/guitar/db/ModelTypePersistenceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/guitar/db/ModelTypePersistenceTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,14 +67,14 @@
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="SQL" value="2" />
           <entry key="Scratch" value="2" />
-          <entry key="XML" value="4" />
+          <entry key="XML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1873" />
+          <entry key="JAVA" value="1893" />
           <entry key="SQL" value="72" />
-          <entry key="XML" value="124" />
+          <entry key="XML" value="129" />
         </counts>
       </usages-collector>
     </session>
@@ -103,14 +93,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/guitar/db/LocationPersistenceTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="245">
-              <caret line="104" column="8" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
+              <caret line="104" column="29" selection-start-line="104" selection-start-column="29" selection-end-line="104" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="62" column="52" lean-forward="true" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -131,7 +130,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/h2/data.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="291">
-              <caret line="66" column="50" lean-forward="true" selection-start-line="66" selection-start-column="50" selection-end-line="66" selection-end-column="50" />
+              <caret line="66" column="50" selection-start-line="66" selection-start-column="50" selection-end-line="66" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -152,7 +151,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/guitar/db/ModelPersistenceTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1360">
-              <caret line="80" column="53" lean-forward="true" selection-start-line="80" selection-start-column="53" selection-end-line="80" selection-end-column="53" />
+              <caret line="80" column="53" selection-start-line="80" selection-start-column="53" selection-end-line="80" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2490#2498#0" expanded="true" />
@@ -165,7 +164,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ModelTypeJpaRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="191">
-              <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -177,16 +176,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/guitar/db/ModelTypePersistenceTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="215">
-              <caret line="82" column="75" lean-forward="true" selection-start-line="82" selection-start-column="75" selection-end-line="82" selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ManufacturerRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="87" column="54" selection-start-line="87" selection-start-column="54" selection-end-line="87" selection-end-column="54" />
+              <caret line="82" column="75" selection-start-line="82" selection-start-column="75" selection-end-line="82" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -223,7 +213,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/app-context.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/guitar/db/repository/LocationRepository.java" />
@@ -239,6 +228,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/guitar/db/ModelPersistenceTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/guitar/db/repository/LocationJpaRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/guitar/db/LocationPersistenceTests.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -464,7 +454,7 @@
     <property name="DatabaseDriversLRU" value="h2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558011925063" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558013691375" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -594,14 +584,11 @@
       <option name="presentableId" value="Default" />
       <updated>1557919884893</updated>
       <workItem from="1557919886468" duration="12915000" />
-      <workItem from="1558002041278" duration="9700000" />
+      <workItem from="1558002041278" duration="11082000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ManufacturerPersistenceTests_testGetManufacturersTrueFalse - 2019.05.16 at 14h 16m 13s.xml">
-      <configuration name="ManufacturerPersistenceTests.testGetManufacturersTrueFalse" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ManufacturerPersistenceTests_testGetManufacturersTrueFalse - 2019.05.16 at 14h 16m 49s.xml">
       <configuration name="ManufacturerPersistenceTests.testGetManufacturersTrueFalse" configurationId="JUnit" />
     </history-entry>
@@ -629,15 +616,18 @@
     <history-entry file="LocationPersistenceTests_testFindWithNotLikeOrderByStateAsc - 2019.05.16 at 14h 57m 52s.xml">
       <configuration name="LocationPersistenceTests.testFindWithNotLikeOrderByStateAsc" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LocationPersistenceTests_testFindFirstIgnoreCaseStartingWith - 2019.05.16 at 15h 04m 16s.xml">
+      <configuration name="LocationPersistenceTests.testFindFirstIgnoreCaseStartingWith" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22615000" />
+    <option name="totallyTimeSpent" value="23997000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25113463" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25113463" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -648,7 +638,7 @@
       <window_info id="Image Layers" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.22241087" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.19524617" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7004539" weight="0.4974533" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -666,8 +656,8 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.12859304" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.21860817" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.24205749" />
+      <window_info anchor="right" id="Database" order="6" weight="0.21860817" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
@@ -697,13 +687,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-131" />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -944,7 +927,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ModelTypeJpaRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
-          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -954,14 +937,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/h2/data.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
-          <caret line="66" column="50" lean-forward="true" selection-start-line="66" selection-start-column="50" selection-end-line="66" selection-end-column="50" />
+          <caret line="66" column="50" selection-start-line="66" selection-start-column="50" selection-end-line="66" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/guitar/db/ModelTypePersistenceTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
-          <caret line="82" column="75" lean-forward="true" selection-start-line="82" selection-start-column="75" selection-end-line="82" selection-end-column="75" />
+          <caret line="82" column="75" selection-start-line="82" selection-start-column="75" selection-end-line="82" selection-end-column="75" />
         </state>
       </provider>
     </entry>
@@ -985,7 +968,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/guitar/db/ModelPersistenceTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1360">
-          <caret line="80" column="53" lean-forward="true" selection-start-line="80" selection-start-column="53" selection-end-line="80" selection-end-column="53" />
+          <caret line="80" column="53" selection-start-line="80" selection-start-column="53" selection-end-line="80" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2490#2498#0" expanded="true" />
@@ -1006,10 +989,17 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/guitar/db/LocationPersistenceTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
-          <caret line="104" column="8" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
+          <caret line="104" column="29" selection-start-line="104" selection-start-column="29" selection-end-line="104" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="62" column="52" lean-forward="true" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
         </state>
       </provider>
     </entry>
