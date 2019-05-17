@@ -2,14 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4aa314fd-b052-4796-bf2b-d0c69b296043" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ModelJpaRepositoryCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ModelJpaRepositoryImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/JavaeeSpringDateJPA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaeeSpringDateJPA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_9_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_7_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_9_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_11_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_7_1_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ManufacturerJpaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ManufacturerJpaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ManufacturerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ManufacturerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ModelJpaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ModelJpaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ModelRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ModelRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/h2/db.h2.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/h2/db.h2.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/guitar/db/ModelPersistenceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/guitar/db/ModelPersistenceTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,7 +70,7 @@
         <counts>
           <entry key="CLASS" value="8" />
           <entry key="Database Element" value="14" />
-          <entry key="JAVA" value="44" />
+          <entry key="JAVA" value="54" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="SQL" value="2" />
@@ -72,7 +80,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1893" />
+          <entry key="JAVA" value="2422" />
           <entry key="SQL" value="72" />
           <entry key="XML" value="129" />
         </counts>
@@ -82,10 +90,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/guitar/db/repository/LocationJpaRepository.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/guitar/db/model/Manufacturer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+            <state relative-caret-position="185">
+              <caret line="23" column="30" selection-start-line="19" selection-start-column="17" selection-end-line="23" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,22 +102,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/guitar/db/LocationPersistenceTests.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/guitar/db/model/Model.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="104" column="29" selection-start-line="104" selection-start-column="29" selection-end-line="104" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ModelRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="62" column="52" lean-forward="true" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
+            <state relative-caret-position="-62">
+              <caret line="94" column="45" lean-forward="true" selection-start-line="94" selection-start-column="45" selection-end-line="94" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1858#1888#1" expanded="true" />
+                <element signature="e#2469#2499#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ManufacturerRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="84" column="41" lean-forward="true" selection-start-line="84" selection-start-column="41" selection-end-line="84" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -117,8 +139,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/guitar/db/ManufacturerPersistenceTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
+            <state relative-caret-position="135">
+              <caret line="51" column="37" lean-forward="true" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,10 +149,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/h2/data.sql">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ManufacturerJpaRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="66" column="50" selection-start-line="66" selection-start-column="50" selection-end-line="66" selection-end-column="50" />
+            <state relative-caret-position="191">
+              <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,10 +163,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ModelJpaRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+            <state relative-caret-position="28">
+              <caret line="14" column="97" selection-start-line="14" selection-start-column="97" selection-end-line="14" selection-end-column="97" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ModelJpaRepositoryCustom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="41" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ModelJpaRepositoryImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+              <folding>
+                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#181#182#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -150,48 +197,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/guitar/db/ModelPersistenceTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1360">
-              <caret line="80" column="53" selection-start-line="80" selection-start-column="53" selection-end-line="80" selection-end-column="53" />
+            <state relative-caret-position="373">
+              <caret line="59" column="43" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2490#2498#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ModelTypeJpaRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/guitar/db/ModelTypePersistenceTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="82" column="75" selection-start-line="82" selection-start-column="75" selection-end-line="82" selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/guitar/db/model/Manufacturer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="19" column="119" selection-start-line="19" selection-start-column="119" selection-end-line="19" selection-end-column="119" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2051#2052#0" expanded="true" />
-                <element signature="e#2071#2072#0" expanded="true" />
-                <element signature="e#2113#2114#0" expanded="true" />
-                <element signature="e#2140#2141#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -202,8 +212,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -216,19 +226,21 @@
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/app-context.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/guitar/db/repository/LocationRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ModelRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ManufacturerRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ManufacturerJpaRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/guitar/db/model/Manufacturer.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/guitar/db/ManufacturerPersistenceTests.java" />
         <option value="$PROJECT_DIR$/src/main/resources/h2/data.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ModelTypeJpaRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/guitar/db/ModelTypePersistenceTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ModelJpaRepository.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/guitar/db/ModelPersistenceTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/guitar/db/repository/LocationJpaRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/guitar/db/LocationPersistenceTests.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ManufacturerJpaRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ManufacturerRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ModelRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ModelJpaRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ModelJpaRepositoryCustom.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ModelJpaRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/guitar/db/ModelPersistenceTests.java" />
       </list>
     </option>
   </component>
@@ -454,7 +466,7 @@
     <property name="DatabaseDriversLRU" value="h2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558013691375" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558050270762" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -475,8 +487,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LocationPersistenceTests.testFindFirstIgnoreCaseStartingWith">
-    <configuration name="LocationPersistenceTests.testFindFirstIgnoreCaseStartingWith" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ModelPersistenceTests.testSaveAndGetAndDelete">
+    <configuration name="ManufacturerPersistenceTests.testGetManufacturersThatSellModelsOfType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaeeSpringDateJPA" />
       <extension name="coverage">
         <pattern>
@@ -485,46 +497,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.guitar.db" />
-      <option name="MAIN_CLASS_NAME" value="com.guitar.db.LocationPersistenceTests" />
-      <option name="METHOD_NAME" value="testFindFirstIgnoreCaseStartingWith" />
+      <option name="MAIN_CLASS_NAME" value="com.guitar.db.ManufacturerPersistenceTests" />
+      <option name="METHOD_NAME" value="testGetManufacturersThatSellModelsOfType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocationPersistenceTests.testFindIgnoreCaseStartingWith" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaeeSpringDateJPA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.guitar.db.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.guitar.db" />
-      <option name="MAIN_CLASS_NAME" value="com.guitar.db.LocationPersistenceTests" />
-      <option name="METHOD_NAME" value="testFindIgnoreCaseStartingWith" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LocationPersistenceTests.testFindWithNotLikeOrderByStateAsc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaeeSpringDateJPA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.guitar.db.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.guitar.db" />
-      <option name="MAIN_CLASS_NAME" value="com.guitar.db.LocationPersistenceTests" />
-      <option name="METHOD_NAME" value="testFindWithNotLikeOrderByStateAsc" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ModelPersistenceTests.testGetModelsByTypes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ModelPersistenceTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaeeSpringDateJPA" />
       <extension name="coverage">
         <pattern>
@@ -534,13 +514,11 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.guitar.db" />
       <option name="MAIN_CLASS_NAME" value="com.guitar.db.ModelPersistenceTests" />
-      <option name="METHOD_NAME" value="testGetModelsByTypes" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ModelTypePersistenceTests.testForNotNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ModelPersistenceTests.testGetModelsByType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaeeSpringDateJPA" />
       <extension name="coverage">
         <pattern>
@@ -549,27 +527,59 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.guitar.db" />
-      <option name="MAIN_CLASS_NAME" value="com.guitar.db.ModelTypePersistenceTests" />
-      <option name="METHOD_NAME" value="testForNotNull" />
+      <option name="MAIN_CLASS_NAME" value="com.guitar.db.ModelPersistenceTests" />
+      <option name="METHOD_NAME" value="testGetModelsByType" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModelPersistenceTests.testGetQueryModelsByPriceRangeAndWoodType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaeeSpringDateJPA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guitar.db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.guitar.db" />
+      <option name="MAIN_CLASS_NAME" value="com.guitar.db.ModelPersistenceTests" />
+      <option name="METHOD_NAME" value="testGetQueryModelsByPriceRangeAndWoodType" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModelPersistenceTests.testSaveAndGetAndDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaeeSpringDateJPA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guitar.db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.guitar.db" />
+      <option name="MAIN_CLASS_NAME" value="com.guitar.db.ModelPersistenceTests" />
+      <option name="METHOD_NAME" value="testSaveAndGetAndDelete" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ModelTypePersistenceTests.testForNotNull" />
-      <item itemvalue="JUnit.ModelPersistenceTests.testGetModelsByTypes" />
-      <item itemvalue="JUnit.LocationPersistenceTests.testFindIgnoreCaseStartingWith" />
-      <item itemvalue="JUnit.LocationPersistenceTests.testFindWithNotLikeOrderByStateAsc" />
-      <item itemvalue="JUnit.LocationPersistenceTests.testFindFirstIgnoreCaseStartingWith" />
+      <item itemvalue="JUnit.ModelPersistenceTests.testGetQueryModelsByPriceRangeAndWoodType" />
+      <item itemvalue="JUnit.ModelPersistenceTests" />
+      <item itemvalue="JUnit.ModelPersistenceTests.testGetModelsByType" />
+      <item itemvalue="JUnit.ManufacturerPersistenceTests.testGetManufacturersThatSellModelsOfType" />
+      <item itemvalue="JUnit.ModelPersistenceTests.testSaveAndGetAndDelete" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LocationPersistenceTests.testFindFirstIgnoreCaseStartingWith" />
-        <item itemvalue="JUnit.LocationPersistenceTests.testFindWithNotLikeOrderByStateAsc" />
-        <item itemvalue="JUnit.LocationPersistenceTests.testFindIgnoreCaseStartingWith" />
-        <item itemvalue="JUnit.ModelPersistenceTests.testGetModelsByTypes" />
-        <item itemvalue="JUnit.ModelTypePersistenceTests.testForNotNull" />
+        <item itemvalue="JUnit.ModelPersistenceTests.testSaveAndGetAndDelete" />
+        <item itemvalue="JUnit.ModelPersistenceTests" />
+        <item itemvalue="JUnit.ModelPersistenceTests.testGetQueryModelsByPriceRangeAndWoodType" />
+        <item itemvalue="JUnit.ManufacturerPersistenceTests.testGetManufacturersThatSellModelsOfType" />
+        <item itemvalue="JUnit.ModelPersistenceTests.testGetModelsByType" />
       </list>
     </recent_temporary>
   </component>
@@ -584,50 +594,50 @@
       <option name="presentableId" value="Default" />
       <updated>1557919884893</updated>
       <workItem from="1557919886468" duration="12915000" />
-      <workItem from="1558002041278" duration="11082000" />
+      <workItem from="1558002041278" duration="19579000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ManufacturerPersistenceTests_testGetManufacturersTrueFalse - 2019.05.16 at 14h 16m 49s.xml">
+    <history-entry file="ModelPersistenceTests - 2019.05.16 at 17h 27m 23s.xml">
+      <configuration name="ModelPersistenceTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManufacturerPersistenceTests_testGetManufacturersTrueFalse - 2019.05.16 at 17h 28m 19s.xml">
       <configuration name="ManufacturerPersistenceTests.testGetManufacturersTrueFalse" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModelTypePersistenceTests_testForNull - 2019.05.16 at 14h 22m 26s.xml">
-      <configuration name="ModelTypePersistenceTests.testForNull" configurationId="JUnit" />
+    <history-entry file="ModelPersistenceTests - 2019.05.16 at 17h 34m 20s.xml">
+      <configuration name="ModelPersistenceTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModelTypePersistenceTests_testForNull - 2019.05.16 at 14h 23m 21s.xml">
-      <configuration name="ModelTypePersistenceTests.testForNull" configurationId="JUnit" />
+    <history-entry file="ModelPersistenceTests_testGetQueryModelsByPriceRangeAndWoodType - 2019.05.16 at 17h 35m 53s.xml">
+      <configuration name="ModelPersistenceTests.testGetQueryModelsByPriceRangeAndWoodType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModelTypePersistenceTests_testForNotNull - 2019.05.16 at 14h 25m 10s.xml">
-      <configuration name="ModelTypePersistenceTests.testForNotNull" configurationId="JUnit" />
+    <history-entry file="ModelPersistenceTests_testGetModelsByType - 2019.05.16 at 18h 00m 32s.xml">
+      <configuration name="ModelPersistenceTests.testGetModelsByType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModelTypePersistenceTests_testForNotNull - 2019.05.16 at 14h 25m 46s.xml">
-      <configuration name="ModelTypePersistenceTests.testForNotNull" configurationId="JUnit" />
+    <history-entry file="ManufacturerPersistenceTests_testGetManufacturersThatSellModelsOfType - 2019.05.16 at 18h 11m 13s.xml">
+      <configuration name="ManufacturerPersistenceTests.testGetManufacturersThatSellModelsOfType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModelPersistenceTests_testGetModelsByTypes - 2019.05.16 at 14h 40m 53s.xml">
-      <configuration name="ModelPersistenceTests.testGetModelsByTypes" configurationId="JUnit" />
+    <history-entry file="ModelPersistenceTests_testGetQueryModelsByPriceRangeAndWoodType - 2019.05.17 at 00h 58m 16s.xml">
+      <configuration name="ModelPersistenceTests.testGetQueryModelsByPriceRangeAndWoodType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModelPersistenceTests_testGetModelsByTypes - 2019.05.16 at 14h 42m 37s.xml">
-      <configuration name="ModelPersistenceTests.testGetModelsByTypes" configurationId="JUnit" />
+    <history-entry file="ModelPersistenceTests_testGetQueryModelsByPriceRangeAndWoodType - 2019.05.17 at 01h 11m 17s.xml">
+      <configuration name="ModelPersistenceTests.testGetQueryModelsByPriceRangeAndWoodType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LocationPersistenceTests_testFindIgnoreCaseStartingWith - 2019.05.16 at 14h 48m 29s.xml">
-      <configuration name="LocationPersistenceTests.testFindIgnoreCaseStartingWith" configurationId="JUnit" />
+    <history-entry file="ModelPersistenceTests - 2019.05.17 at 01h 27m 28s.xml">
+      <configuration name="ModelPersistenceTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LocationPersistenceTests_testFindWithNotLikeOrderByStateAsc - 2019.05.16 at 14h 57m 52s.xml">
-      <configuration name="LocationPersistenceTests.testFindWithNotLikeOrderByStateAsc" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LocationPersistenceTests_testFindFirstIgnoreCaseStartingWith - 2019.05.16 at 15h 04m 16s.xml">
-      <configuration name="LocationPersistenceTests.testFindFirstIgnoreCaseStartingWith" configurationId="JUnit" />
+    <history-entry file="ModelPersistenceTests_testSaveAndGetAndDelete - 2019.05.17 at 01h 28m 13s.xml">
+      <configuration name="ModelPersistenceTests.testSaveAndGetAndDelete" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23997000" />
+    <option name="totallyTimeSpent" value="32494000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25113463" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25113463" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -638,7 +648,7 @@
       <window_info id="Image Layers" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.19524617" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.4006791" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7004539" weight="0.4974533" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -674,7 +684,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/guitar/db/ModelPersistenceTests.java</url>
-          <line>84</line>
+          <line>92</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -788,29 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guitar/db/model/Location.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#617#631#0" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#840#841#0" expanded="true" />
-            <element signature="e#869#870#0" expanded="true" />
-            <element signature="e#918#919#0" expanded="true" />
-            <element signature="e#945#946#0" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1053#1054#0" expanded="true" />
-            <element signature="e#1077#1078#0" expanded="true" />
-            <element signature="e#1093#1094#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://e1d4bcbb-5cc2-4a1a-a05d-f1abc1101d72/database/DB/schema/PUBLIC/table/LOCATION">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -835,30 +822,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ModelRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="83" column="116" selection-start-line="83" selection-start-column="116" selection-end-line="83" selection-end-column="116" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.9/junit-4.9.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guitar/db/repository/LocationRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-588">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -869,58 +836,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guitar/db/model/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ManufacturerJpaRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/h2/db.h2.db">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-50">
           <caret line="15" column="86" lean-forward="true" selection-start-line="15" selection-start-column="86" selection-end-line="15" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ManufacturerRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="87" column="54" selection-start-line="87" selection-start-column="54" selection-end-line="87" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guitar/db/model/Manufacturer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="19" column="119" selection-start-line="19" selection-start-column="119" selection-end-line="19" selection-end-column="119" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2051#2052#0" expanded="true" />
-            <element signature="e#2071#2072#0" expanded="true" />
-            <element signature="e#2113#2114#0" expanded="true" />
-            <element signature="e#2140#2141#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/guitar/db/ManufacturerPersistenceTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -948,31 +867,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ModelJpaRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://e1d4bcbb-5cc2-4a1a-a05d-f1abc1101d72/database/DB/schema/PUBLIC/table/MODELTYPE">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/guitar/db/ModelPersistenceTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="80" column="53" selection-start-line="80" selection-start-column="53" selection-end-line="80" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2490#2498#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -996,10 +894,141 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guitar/db/repository/LocationRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="55" column="28" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="62" column="52" lean-forward="true" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
+        <state relative-caret-position="191">
+          <caret line="63" column="44" lean-forward="true" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guitar/db/model/Location.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#617#631#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#918#919#0" expanded="true" />
+            <element signature="e#945#946#0" expanded="true" />
+            <element signature="e#1012#1013#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guitar/db/model/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guitar/db/model/Manufacturer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="23" column="30" selection-start-line="19" selection-start-column="17" selection-end-line="23" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ManufacturerJpaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ManufacturerRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="84" column="41" lean-forward="true" selection-start-line="84" selection-start-column="41" selection-end-line="84" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/guitar/db/ManufacturerPersistenceTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="51" column="37" lean-forward="true" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ModelJpaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="14" column="97" selection-start-line="14" selection-start-column="97" selection-end-line="14" selection-end-column="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/guitar/db/ModelPersistenceTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="59" column="43" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2490#2498#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ModelJpaRepositoryCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ModelJpaRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+          <folding>
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guitar/db/repository/ModelRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62">
+          <caret line="94" column="45" lean-forward="true" selection-start-line="94" selection-start-column="45" selection-end-line="94" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1858#1888#1" expanded="true" />
+            <element signature="e#2469#2499#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
